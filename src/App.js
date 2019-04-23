@@ -22,7 +22,7 @@ class App extends Component {
   }
 
   get passwordListSize() {
-    return 72;
+    return 42;
   }
 
   componentDidMount() {
@@ -73,16 +73,17 @@ class App extends Component {
   }
 
   render() {
-    
 
     return (
       <div className="App">
 
         <main role="main" className="App-main container text-center">
           <Logotype src={logo} className="App-logo" alt="logo" />
-          <h1>Really bad password generator</h1>
+          <h1>Really bad password123 generator</h1>
           <p className="lead">Create, Look, Never Use.</p>
-          <p className="text-muted small">Check the password list generator on <a href="/" target="_blank" rel="noopener noreferrer">Github</a></p>
+          <p className="text-muted small">
+            Check the password list generator on <a href="https://github.com/vitya1/really-bad-password-generator" target="_blank" rel="noopener noreferrer">Github</a>
+          </p>
 
           <Form className="row justify-content-md-center">
             <FormGroup className="col-6">
